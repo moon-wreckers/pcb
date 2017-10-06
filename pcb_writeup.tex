@@ -7,15 +7,15 @@
 \usepackage{graphicx}
 \title{Task 6\\ \vspace{2mm}\Large{16-681 MRSD Project Course }}
 \author{
-	Daniel Arnett \\
+  Daniel Arnett \\
     Karthik (Venkata Rama) Paga\\
-	Dicong (David) Qiu\\
-	Matthew Swenson\\
-	Abdul Zafar
+  Dicong (David) Qiu\\
+  Matthew Swenson\\
+  Abdul Zafar
 }
 
 \begin{document}
-	\maketitle
+  \maketitle
     \newpage
 
 \section{Regulator Efficiency}
@@ -25,9 +25,41 @@ So:
 $$\eta_{3.3V} = 1-\frac{24V-3.3V}{24V} = .1375$$
 $$\eta_{5V} = 1-\frac{24V-5V}{24V} = .20833$$
 $$\eta_{12V} = 1-\frac{24V-12V}{24V} = .5$$
-\subsection{Input Power}
 
-\subsection{Total System Efficiency}
+
+\section{Input Power}
+
+The input power for the motor at maximum rated output is 
+$$
+P_{\textit{IN},\textit{motor}} = \frac{\textit{\textit{motor}} \times I_{\textit{motor}, \textit{max}} }{\eta_{motor}} = \frac{24V \times 10A}{1.0} = 240W
+$$
+
+The input power for the CPU board at maximum rated output is 
+$$
+P_{\textit{IN},\textit{3.3V}} = \frac{\textit{\textit{3.3V}} \times I_{\textit{3.3V}} }{\eta_{3.3V}} = \frac{3.3V \times 1A}{0.1375} = 24W
+$$
+
+The input power for the Wifi and Encoder subsystem at maximum rated output is 
+$$
+P_{\textit{IN},\textit{5V}} = \frac{\textit{\textit{5V}} \times I_{\textit{5V}} }{\eta_{5V}} = \frac{5V \times 1A}{0.20833} = 24W
+$$
+
+The input power for the LIDAR at maximum rated output is 
+$$
+P_{\textit{IN},\textit{12V}} = \frac{\textit{\textit{12V}} \times I_{\textit{12V}} }{\eta_{12V}} = \frac{12V \times 2A}{0.5} = 48W
+$$
+
+
+\section{Total System Efficiency}
+
+The total system efficiency at maximum rated output is 
+$$
+\begin{align*}
+    \eta &= \frac{P_{\textit{motor}} + P_{3.3V} + P_{5V} + P_{12V}}{P_{\textit{IN}, \textit{motor}} + P_{\textit{IN}, 3.3V} + P_{\textit{IN}, 5V} + P_{\textit{IN}, 12V}} \\
+    &= \frac{24V \timex 10A + 3.3V \times 1A + 5V \times 1A + 12V \times 2A}{240W + 24W + 24W + 48W} \\
+    &= 0.8104
+\end{align*}
+$$
 
 
 \end{document}
