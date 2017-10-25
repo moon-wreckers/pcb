@@ -9303,18 +9303,30 @@ Source: www.kingbright.com</description>
 </plain>
 <instances>
 <instance part="F1" gate="1" x="-33.02" y="53.34"/>
-<instance part="D1" gate="G$1" x="-22.86" y="53.34"/>
-<instance part="CR1" gate="A" x="-12.7" y="38.1" rot="R90"/>
+<instance part="D1" gate="G$1" x="-22.86" y="53.34" smashed="yes">
+<attribute name="NAME" x="-25.146" y="55.245" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-25.146" y="49.911" size="1.778" layer="96"/>
+</instance>
+<instance part="CR1" gate="A" x="-12.7" y="38.1" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-7.1628" y="36.7538" size="1.778" layer="96" ratio="10" rot="SR90"/>
+<attribute name="NAME" x="-15.3924" y="37.8206" size="1.778" layer="95" ratio="10" rot="SR90"/>
+</instance>
 <instance part="R1" gate="G$1" x="55.88" y="38.1" rot="R90"/>
 <instance part="LED1" gate="G$1" x="55.88" y="50.8"/>
 <instance part="C1" gate="G$1" x="-43.18" y="48.26"/>
 <instance part="12VREG" gate="A" x="-2.54" y="-50.8"/>
 <instance part="F2" gate="1" x="73.66" y="-15.24"/>
 <instance part="D2" gate="G$1" x="86.36" y="-15.24"/>
-<instance part="CR2" gate="A" x="96.52" y="-30.48" rot="R90"/>
+<instance part="CR2" gate="A" x="96.52" y="-30.48" smashed="yes" rot="R90">
+<attribute name="VALUE" x="102.0572" y="-31.8262" size="1.778" layer="96" ratio="10" rot="SR90"/>
+<attribute name="NAME" x="93.8276" y="-30.7594" size="1.778" layer="95" ratio="10" rot="SR90"/>
+</instance>
 <instance part="F3" gate="1" x="73.66" y="-43.18"/>
 <instance part="D3" gate="G$1" x="86.36" y="-43.18"/>
-<instance part="CR3" gate="A" x="96.52" y="-58.42" rot="R90"/>
+<instance part="CR3" gate="A" x="96.52" y="-58.42" smashed="yes" rot="R90">
+<attribute name="VALUE" x="102.0572" y="-59.7662" size="1.778" layer="95" ratio="10" rot="SR90"/>
+<attribute name="NAME" x="93.8276" y="-58.6994" size="1.778" layer="95" ratio="10" rot="SR90"/>
+</instance>
 <instance part="C2" gate="G$1" x="43.18" y="-22.86"/>
 <instance part="LED2" gate="G$1" x="55.88" y="-17.78"/>
 <instance part="R2" gate="G$1" x="55.88" y="-30.48" rot="R90"/>
