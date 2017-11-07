@@ -1,0 +1,17 @@
+Qty,Value,Part Designator,Description,Manufacturer/ Vendor Part Number,Vendor,Cost per part (USD)
+1,1.2k,R1,"RESISTOR,American symbol",RC0402JR-071K2L,Digikey,0.00139
+1,12000uF,C1,"CAPACITOR,American symbol",SLPX123M063E9P3,Digikey,5.46
+1,150,R2,"RESISTOR,American symbol",ERJ-1GEF1500C,Digikey,0.00671
+1,25A,F1,FUSE,0678L9250-02,Digikey,0.3927
+1,3A,F3,FUSE,ERB-RE3R00V,Digikey,0.114
+2,47uF,"C2,C3","CAPACITOR,American symbol",CC0805MKX5R5BB476,Digikey,0.11257
+1,560,R3,"RESISTOR,American symbol",RC0402JR-07560RL,Digikey,0.00139
+1,6.25A,F2,FUSE,03136.25MXP,Digikey,1.12
+3,BAT60J,"D1,D2,D3",Schottky barrier diode,SD0603S040S0R2,Digikey,0.08505
+1,Green,LED1,LED,LTST-C191KGKT,Digikey,0.29
+1,Red,LED2,LED,LTST-C191KRKT,Digikey,0.29
+8,SE13,"3A_LINE,6.25A_LINE,25A_LINE,GND,LSP4,LSP6,LSP8,VIN_12V","SOLDER PAD E1542,drill 1,3mm,distributor Buerklin,07F815",,,
+3,5V,"CR1,CR2,CR3",Zener Diode,SMAJ5.0,Littelfuse Inc,0.51
+1,Yellow,LED3,LED,LTST-C191KSKT,Digikey,0.31
+Parts that are not on board but necessary:,,,,,,
+2,,UBEC-10A,Used as voltage regulators,UBEC 10A,Hobbying,36.99
