@@ -9327,9 +9327,9 @@ drill 1.3 mm</description>
 <part name="LSP6" library="solpad" library_urn="urn:adsk.eagle:library:364" deviceset="SE13" device="" package3d_urn="urn:adsk.eagle:package:26505/1"/>
 <part name="VIN_12V" library="solpad" library_urn="urn:adsk.eagle:library:364" deviceset="SE13" device="" package3d_urn="urn:adsk.eagle:package:26505/1"/>
 <part name="LSP8" library="solpad" library_urn="urn:adsk.eagle:library:364" deviceset="SE13" device="" package3d_urn="urn:adsk.eagle:package:26505/1"/>
-<part name="EXTENDERS_25A" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="/90" package3d_urn="urn:adsk.eagle:package:22471/1"/>
-<part name="EXTENDERS_6.25A" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="/90" package3d_urn="urn:adsk.eagle:package:22471/1"/>
-<part name="EXTENDERS_3A" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="/90" package3d_urn="urn:adsk.eagle:package:22471/1"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2"/>
+<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2"/>
+<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -9375,9 +9375,9 @@ drill 1.3 mm</description>
 <instance part="LSP6" gate="1" x="114.3" y="-63.5" rot="R270"/>
 <instance part="VIN_12V" gate="1" x="-55.88" y="53.34" rot="R90"/>
 <instance part="LSP8" gate="1" x="-55.88" y="33.02" rot="R90"/>
-<instance part="EXTENDERS_25A" gate="A" x="132.08" y="43.18" rot="R90"/>
-<instance part="EXTENDERS_6.25A" gate="A" x="134.62" y="-7.62" rot="R90"/>
-<instance part="EXTENDERS_3A" gate="A" x="139.7" y="-55.88" rot="R90"/>
+<instance part="JP1" gate="A" x="132.08" y="43.18" rot="R90"/>
+<instance part="JP2" gate="A" x="134.62" y="-7.62" rot="R90"/>
+<instance part="JP3" gate="A" x="139.7" y="-55.88" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -9552,140 +9552,140 @@ drill 1.3 mm</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="EXTENDERS_3A" gate="A" pin="1"/>
 <wire x1="116.84" y1="-63.5" x2="134.62" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-63.5" x2="134.62" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_3A" gate="A" pin="3"/>
 <wire x1="134.62" y1="-63.5" x2="137.16" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="-58.42" x2="137.16" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_3A" gate="A" pin="5"/>
 <wire x1="137.16" y1="-63.5" x2="139.7" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-58.42" x2="139.7" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_3A" gate="A" pin="7"/>
 <wire x1="139.7" y1="-63.5" x2="142.24" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-58.42" x2="142.24" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_3A" gate="A" pin="9"/>
 <wire x1="142.24" y1="-63.5" x2="144.78" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="-63.5" x2="144.78" y2="-58.42" width="0.1524" layer="91"/>
 <junction x="142.24" y="-63.5"/>
 <junction x="139.7" y="-63.5"/>
 <junction x="137.16" y="-63.5"/>
 <junction x="134.62" y="-63.5"/>
+<pinref part="JP3" gate="A" pin="1"/>
+<pinref part="JP3" gate="A" pin="3"/>
+<pinref part="JP3" gate="A" pin="5"/>
+<pinref part="JP3" gate="A" pin="7"/>
+<pinref part="JP3" gate="A" pin="9"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="EXTENDERS_3A" gate="A" pin="2"/>
 <wire x1="114.3" y1="-43.18" x2="134.62" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-50.8" x2="134.62" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_3A" gate="A" pin="4"/>
 <wire x1="134.62" y1="-43.18" x2="137.16" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="-50.8" x2="137.16" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_3A" gate="A" pin="6"/>
 <wire x1="137.16" y1="-43.18" x2="139.7" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-50.8" x2="139.7" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_3A" gate="A" pin="8"/>
 <wire x1="139.7" y1="-43.18" x2="142.24" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-50.8" x2="142.24" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_3A" gate="A" pin="10"/>
 <wire x1="142.24" y1="-43.18" x2="144.78" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="-43.18" x2="144.78" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="134.62" y="-43.18"/>
 <junction x="137.16" y="-43.18"/>
 <junction x="139.7" y="-43.18"/>
 <junction x="142.24" y="-43.18"/>
+<pinref part="JP3" gate="A" pin="2"/>
+<pinref part="JP3" gate="A" pin="4"/>
+<pinref part="JP3" gate="A" pin="6"/>
+<pinref part="JP3" gate="A" pin="8"/>
+<pinref part="JP3" gate="A" pin="10"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="EXTENDERS_6.25A" gate="A" pin="1"/>
 <wire x1="116.84" y1="-17.78" x2="129.54" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="-10.16" x2="129.54" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_6.25A" gate="A" pin="3"/>
 <wire x1="129.54" y1="-17.78" x2="132.08" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-10.16" x2="132.08" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_6.25A" gate="A" pin="5"/>
 <wire x1="132.08" y1="-17.78" x2="134.62" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-10.16" x2="134.62" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_6.25A" gate="A" pin="7"/>
 <wire x1="134.62" y1="-17.78" x2="137.16" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="-10.16" x2="137.16" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_6.25A" gate="A" pin="9"/>
 <wire x1="137.16" y1="-17.78" x2="139.7" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-17.78" x2="139.7" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="137.16" y="-17.78"/>
 <junction x="134.62" y="-17.78"/>
 <junction x="132.08" y="-17.78"/>
 <junction x="129.54" y="-17.78"/>
+<pinref part="JP2" gate="A" pin="1"/>
+<pinref part="JP2" gate="A" pin="3"/>
+<pinref part="JP2" gate="A" pin="5"/>
+<pinref part="JP2" gate="A" pin="7"/>
+<pinref part="JP2" gate="A" pin="9"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="EXTENDERS_6.25A" gate="A" pin="2"/>
 <wire x1="116.84" y1="2.54" x2="129.54" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="-2.54" x2="129.54" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_6.25A" gate="A" pin="4"/>
 <wire x1="129.54" y1="2.54" x2="132.08" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-2.54" x2="132.08" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_6.25A" gate="A" pin="6"/>
 <wire x1="132.08" y1="2.54" x2="134.62" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-2.54" x2="134.62" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_6.25A" gate="A" pin="8"/>
 <wire x1="134.62" y1="2.54" x2="137.16" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="-2.54" x2="137.16" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_6.25A" gate="A" pin="10"/>
 <wire x1="137.16" y1="2.54" x2="139.7" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="2.54" x2="139.7" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="129.54" y="2.54"/>
 <junction x="132.08" y="2.54"/>
 <junction x="134.62" y="2.54"/>
 <junction x="137.16" y="2.54"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<pinref part="JP2" gate="A" pin="4"/>
+<pinref part="JP2" gate="A" pin="6"/>
+<pinref part="JP2" gate="A" pin="8"/>
+<pinref part="JP2" gate="A" pin="10"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="EXTENDERS_25A" gate="A" pin="2"/>
 <wire x1="114.3" y1="53.34" x2="127" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="127" y1="48.26" x2="127" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_25A" gate="A" pin="4"/>
 <wire x1="127" y1="53.34" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="48.26" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_25A" gate="A" pin="6"/>
 <wire x1="129.54" y1="53.34" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="48.26" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_25A" gate="A" pin="8"/>
 <wire x1="132.08" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="48.26" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
 <junction x="127" y="53.34"/>
 <junction x="129.54" y="53.34"/>
 <junction x="132.08" y="53.34"/>
-<pinref part="EXTENDERS_25A" gate="A" pin="10"/>
 <wire x1="134.62" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="53.34" x2="137.16" y2="48.26" width="0.1524" layer="91"/>
 <junction x="134.62" y="53.34"/>
+<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="JP1" gate="A" pin="6"/>
+<pinref part="JP1" gate="A" pin="8"/>
+<pinref part="JP1" gate="A" pin="10"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="EXTENDERS_25A" gate="A" pin="1"/>
 <wire x1="114.3" y1="33.02" x2="127" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="127" y1="40.64" x2="127" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_25A" gate="A" pin="3"/>
 <wire x1="127" y1="33.02" x2="129.54" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="40.64" x2="129.54" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_25A" gate="A" pin="5"/>
 <wire x1="129.54" y1="33.02" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="40.64" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="EXTENDERS_25A" gate="A" pin="7"/>
 <wire x1="132.08" y1="33.02" x2="134.62" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="40.64" x2="134.62" y2="33.02" width="0.1524" layer="91"/>
 <junction x="132.08" y="33.02"/>
 <junction x="129.54" y="33.02"/>
 <junction x="127" y="33.02"/>
-<pinref part="EXTENDERS_25A" gate="A" pin="9"/>
 <wire x1="134.62" y1="33.02" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="33.02" x2="137.16" y2="40.64" width="0.1524" layer="91"/>
 <junction x="134.62" y="33.02"/>
+<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="JP1" gate="A" pin="5"/>
+<pinref part="JP1" gate="A" pin="7"/>
+<pinref part="JP1" gate="A" pin="9"/>
 </segment>
 </net>
 </nets>

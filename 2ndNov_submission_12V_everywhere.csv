@@ -1,0 +1,15 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"1";"1.2k";"R-US_R1206";"R1206";"R1";"RESISTOR, American symbol";"";
+"1";"12000uF";"C-USC1206K";"C1206K";"C1";"CAPACITOR, American symbol";"";
+"1";"150";"R-US_R1206";"R1206";"R2";"RESISTOR, American symbol";"";
+"1";"25A";"TE5";"TE5";"F1";"FUSE";"";
+"1";"3A";"TE5";"TE5";"F3";"FUSE";"";
+"2";"47uF";"C-USC1206K";"C1206K";"C2, C3";"CAPACITOR, American symbol";"";
+"1";"560";"R-US_R1206";"R1206";"R3";"RESISTOR, American symbol";"";
+"1";"6.25A";"TE5";"TE5";"F2";"FUSE";"";
+"3";"BAT60J";"BAT60J";"SOD323_ST";"D1, D2, D3";"Schottky barrier diode";"";
+"1";"Green";"LEDCHIPLED_1206";"CHIPLED_1206";"LED1";"LED";"";
+"1";"Red";"LEDCHIPLED_1206";"CHIPLED_1206";"LED2";"LED";"";
+"8";"SE13";"SE13";"SE13";"3A_LINE, 6.25A_LINE, 25A_LINE, GND, LSP4, LSP6, LSP8, VIN_12V";"SOLDER PAD E1542,  drill 1,3mm, distributor Buerklin, 07F815";"";
+"3";"SMAJ5.0";"SMAJ5.0";"SMASERIES";"CR1, CR2, CR3";"";"";
+"1";"Yellow";"LEDCHIPLED_1206";"CHIPLED_1206";"LED3";"LED";"";
